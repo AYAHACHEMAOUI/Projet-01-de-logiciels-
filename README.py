@@ -20,3 +20,7 @@ print("****************création et affichage***************** ","\n")
 # Affichage du tableau
 print("Tableau des séquences ADN :")
 print(df)
+
+#2) Sélection et affichage uniquement la colonne "longueur"
+longueur = df["longueur"]
+print(longueur,"\n")
