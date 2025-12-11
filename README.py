@@ -24,3 +24,8 @@ print(df)
 #2) Sélection et affichage uniquement la colonne "longueur"
 longueur = df["longueur"]
 print(longueur,"\n")
+
+# 3) filtrer les séquences dont la longueur est supérieure à 10
+print("*************  Filtrage les séquences dont la longueur est  > 10 *************    ") 
+filtered_df = df[df["longueur"] > 10]
+print(filtered_df) 
