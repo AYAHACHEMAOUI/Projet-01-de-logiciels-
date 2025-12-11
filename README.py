@@ -45,3 +45,15 @@ print(df)
 print (" ************* ajouter une colonne *************") 
 df["nombre de'G' "]  =df['séquence']. apply(lambda x:  x. count('G')) 
 print  (df) 
+
+#7)calculer écart-type du Pourcentage de GC
+print("************ calcul écart-type ************")
+
+average_gc = df["pourcentage GC"].std()
+print(f"pourcentage écart-type de GC: {average_gc:.5f}%")
+
+#calculer écart-type de longueur des séquences
+print("************ calcul écart-type *************")
+
+average = df["longueur"].std()
+print(f"la longueur écart-type: {average:.5f}%")
