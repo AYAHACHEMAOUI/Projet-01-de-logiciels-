@@ -57,3 +57,11 @@ print("************ calcul écart-type *************")
 
 average = df["longueur"].std()
 print(f"la longueur écart-type: {average:.5f}%")
+
+#8)Sauvegarde et chargement des données avec panda
+# Sauvegarder le DataFrame dans un fichier CSV
+df.to_csv("tableau_longueur des séquences.csv",index=False)
+
+#Télécharger un fichier CSV et le mettre dans un DataFrame 
+df_loaded = pd.read_csv("tableau_longueur des Séquences.csv")
+print(df_loaded)
