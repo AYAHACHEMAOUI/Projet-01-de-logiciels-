@@ -1,4 +1,5 @@
-#Hachemaoui aya, Master1 Microbiologie Fondamentale,09/12/2025
+#Chef de projet Hachemaoui aya, Master1 Microbiologie Fondamentale,11/12/2025
+#Liste des membres de l'équipe:
 #Benali farah
 #Ameur khouloud 
 #Rabah feryal 
